@@ -1,0 +1,2 @@
+SELECT id, year(date) as year, month(date) as month, day(date) as day, date 
+FROM orders;

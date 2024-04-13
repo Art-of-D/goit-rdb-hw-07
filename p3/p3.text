@@ -1,0 +1,2 @@
+SELECT id, date, UNIX_TIMESTAMP(date) as UNIX_TIMESTAMP
+FROM orders;

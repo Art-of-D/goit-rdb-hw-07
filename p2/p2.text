@@ -1,0 +1,2 @@
+SELECT id, date, date + INTERVAL 1 day as day_ahead
+FROM orders;
